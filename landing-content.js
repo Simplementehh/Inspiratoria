@@ -25,17 +25,46 @@ const topicGuidance = [
 {ideal:'Personas en una etapa de cambio; organizaciones que buscan espacios de reflexión sobre motivaciones, valores y objetivos.',goal:'Conectar motivaciones y valores con decisiones personales o profesionales.',example:'Explorar una decisión pendiente y definir un próximo paso coherente con lo que te importa.'}
 ];
 const formatGuidance = [
-{ideal:'Eventos o equipos que necesitan abrir una conversación, sensibilizar o introducir un tema.',how:'Una persona experta comparte conceptos, ejemplos e ideas. Puede incluir preguntas o una actividad breve.',scope:'Una actividad puntual para abrir perspectivas.'},
-{ideal:'Personas o equipos que quieren practicar herramientas y avanzar en un desafío concreto.',how:'Participas en ejercicios, conversaciones y actividades guiadas vinculadas al desafío.',scope:'Una sesión práctica de alcance acotado.'},
-{ideal:'Organizaciones o grupos que necesitan desarrollar capacidades de manera progresiva.',how:'Un recorrido de varias sesiones combina ejercicios y aplicación entre encuentros.',scope:'Un proceso de aprendizaje en el tiempo.'},
-{ideal:'Personas que necesitan orientación de alguien con experiencia para avanzar en un objetivo.',how:'Trabajas tus preguntas, metas y decisiones con un mentor o mentora; puede incluir acuerdos de acción y seguimiento.',scope:'Acompañamiento personalizado según el objetivo.'},
-{ideal:'Personas que buscan clarificar un objetivo, ampliar perspectivas y sostener cambios.',how:'Un proceso de preguntas y reflexión te ayuda a definir tus propias acciones.',scope:'Acompañamiento conversacional; no equivale a recibir consejos de un mentor.'}
+  {
+    "ideal": "Empresas que organizan una jornada, encuentro de líderes o evento interno; comunidades y personas que quieren conocer un tema antes de profundizar.",
+    "how": "Un relator o especialista explica el tema, comparte ejemplos y propone preguntas para conectarlo con la realidad de la audiencia. La participación se acuerda según el evento.",
+    "scope": "Una intervención puntual para introducir un tema."
+  },
+  {
+    "ideal": "Equipos que necesitan practicar presentaciones, conversaciones o formas de colaborar; personas que quieren entrenar una habilidad con ejercicios y retroalimentación.",
+    "how": "La facilitación propone un desafío, explica una herramienta y guía su práctica. Los participantes ensayan, comparten lo trabajado y reciben retroalimentación para ajustar su manera de hacerlo.",
+    "scope": "Una sesión o jornada centrada en la práctica."
+  },
+  {
+    "ideal": "Organizaciones que quieren acompañar a sus líderes o desarrollar una habilidad en sus equipos; grupos que necesitan practicar y revisar avances durante varias sesiones.",
+    "how": "Primero se define la habilidad y en qué situaciones se usará. Cada sesión aborda una parte del desafío: se aprende una herramienta, se practica y se acuerda una aplicación. En el siguiente encuentro se revisa lo intentado y se ajusta.",
+    "scope": "Varias sesiones conectadas por un objetivo compartido."
+  },
+  {
+    "ideal": "Personas que asumen un nuevo rol, preparan una decisión profesional o impulsan un proyecto; organizaciones que buscan acompañamiento para integrantes de sus equipos.",
+    "how": "La persona trae una situación o pregunta concreta. El mentor o mentora comparte su experiencia, ayuda a evaluar alternativas y entrega retroalimentación. Juntos acuerdan próximos pasos y, si el proceso lo contempla, revisan avances.",
+    "scope": "Acompañamiento enfocado en una persona y su objetivo."
+  }
 ];
 const formatValue = [
-{goal:'Introducir una idea, ampliar perspectivas y abrir preguntas sobre una temática.',design:'Tema, audiencia, propósito de la intervención y espacio para participación.',example:'Una charla para iniciar una conversación sobre inclusión en un equipo.'},
-{goal:'Practicar herramientas y explorar cómo aplicarlas a un desafío concreto.',design:'Desafío, ejercicios, participantes y oportunidades para conectar la práctica con su realidad.',example:'Un taller donde un equipo practica cómo presentar sus ideas con mayor claridad.'},
-{goal:'Desarrollar capacidades de forma progresiva y favorecer su aplicación entre encuentros.',design:'Objetivos por etapa, secuencia de sesiones y actividades de aplicación.',example:'Un recorrido de comunicación que combina sesiones y práctica entre encuentros.'},
-{goal:'Ganar claridad y orientación para tomar decisiones y avanzar en un objetivo.',design:'Objetivo de la persona, perfil de acompañamiento y acuerdos de trabajo y seguimiento.',example:'Una persona emprendedora trabaja con un mentor para ordenar los próximos pasos de su proyecto.'},
-{goal:'Clarificar objetivos, ampliar perspectivas y definir acciones propias.',design:'Objetivo, modalidad de acompañamiento y acuerdos para revisar avances.',example:'Un proceso de reflexión para abordar una decisión profesional y definir cómo avanzar.'}
+  {
+    "goal": "Dar a la audiencia una primera comprensión del tema y preguntas para conversar sobre él.",
+    "design": "Tema, audiencia, duración, relator y espacio de participación.",
+    "example": "Inclusión en un equipo: el relator muestra situaciones donde alguien queda fuera de una conversación y propone preguntas para reconocer esas barreras en el trabajo cotidiano."
+  },
+  {
+    "goal": "Que los participantes prueben una herramienta, reciban retroalimentación y sepan dónde aplicarla.",
+    "design": "Habilidad a practicar, ejercicios, tamaño del grupo y tiempo para retroalimentación.",
+    "example": "Presentaciones: cada participante lleva una idea, organiza su mensaje, la presenta al grupo y vuelve a ensayarla después de recibir comentarios."
+  },
+  {
+    "goal": "Trabajar una habilidad con continuidad: practicar, probarla en situaciones reales y revisar lo que necesita mejorar.",
+    "design": "Objetivo, participantes, secuencia de sesiones, actividades entre encuentros y forma de revisar avances.",
+    "example": "Comunicación para líderes: un encuentro para estructurar mensajes, otro para ensayar conversaciones difíciles y otro para revisar cómo se aplicaron en el equipo. La secuencia se diseña según la necesidad."
+  },
+  {
+    "goal": "Ordenar una situación, evaluar opciones con una mirada experimentada y definir acciones para avanzar.",
+    "design": "Objetivo, perfil del mentor, frecuencia de encuentros y acuerdos de seguimiento.",
+    "example": "Nuevo rol de liderazgo: la persona revisa con su mentor cómo organizar sus primeras conversaciones con el equipo, prepara una de ellas y después analiza qué funcionó y qué cambiaría."
+  }
 ];
-
